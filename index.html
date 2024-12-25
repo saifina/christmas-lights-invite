@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Lights Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff4500;
+        }
+        button {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005f73;
+        }
+    </style>
+</head>
+<body>
+    <h1>Would you like to watch the Christmas lights with me?</h1>
+    <form action="next_page.html" method="get">
+        <button type="submit" name="response" value="yes">Yes</button>
+    </form>
+    <form action="thanks.html" method="get">
+        <button type="submit" name="response" value="no">No</button>
+    </form>
+</body>
+</html>
